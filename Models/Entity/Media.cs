@@ -1,0 +1,10 @@
+﻿namespace Model.Entity
+{
+    public class Media
+    {
+        public int Id { get; set; }
+        public string FileName { get; set; } = string.Empty;
+        public string FileType { get; set; } = string.Empty;
+        public byte[]? Data { get; set; }
+    }
+}
